@@ -1,3 +1,9 @@
+/* 
+  Web Watcher CSS Theme
+  Inspired by GruntJS V1.6.1 style 
+  Customized by Shuvo Sarker <ssworkmail22@gmail.com>
+  Last Updated: June 19, 2025
+*/
 .clearfix:after,
 .clearfix:before {
   display: table;
@@ -2344,9 +2350,8 @@ table th[class*="span"] {
 }
 
 .btn:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6f5a40;
 }
 
 .btn.active,
@@ -4000,7 +4005,7 @@ a.label:hover {
   font-style: normal;
   font-weight: 400;
   src: local("Lato Regular"), local("Lato-Regular"),
-    url("/fonts/lato-v24-latin-regular.woff2") format("woff2");
+    url("../fonts/lato-v24-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -4009,7 +4014,7 @@ a.label:hover {
   font-style: normal;
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"),
-    url("/fonts/lato-v24-latin-700.woff2") format("woff2");
+    url("../fonts/lato-v24-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -4096,9 +4101,9 @@ a.label:hover {
 
 @font-face {
   font-family: icomoon;
-  src: url("/fonts/icomoon.woff") format("woff"),
-    url("/fonts/icomoon.ttf") format("truetype"),
-    url("../fonts/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon.woff") format("woff"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -4222,7 +4227,8 @@ textarea:focus {
   padding: 1em 0;
 }
 
-.banner a,.banner .banner-text {
+.banner a,
+.banner .banner-text {
   color: #6c5b44;
   font-size: 1.25em;
   text-decoration: none;
@@ -4239,7 +4245,7 @@ textarea:focus {
 }
 
 .blm .logo {
-  background-image: url(/assets/logo.png);
+  background-image: url(../images/logo.png);
   width: 42px;
   height: 39px;
   background-size: 100% auto;
@@ -4330,7 +4336,7 @@ i {
 }
 
 .brand .logo {
-  background-image: url(/assets/logo.png);
+  background-image: url(../images/logo.png);
   width: 190px;
   height: 224px;
   display: block;
@@ -4388,7 +4394,7 @@ i {
 }
 
 .page-index .home-header {
-  margin: 1em 0 3.5em;
+  margin: 1em 0 2.5em;
 }
 
 .page-index .home-header h1 {
@@ -4592,7 +4598,7 @@ i {
   font-family: Lato, "Adjusted Arial Fallback", sans-serif;
   font-size: 32px;
   color: #453015;
-  margin: 50px 0 0.8em;
+  margin: 30px 0 0.8em;
 }
 
 .hero-unit h2 {
