@@ -1,0 +1,13 @@
+#node_modules
+node_modules/
+#dist
+dist/
+#build
+build/
+
+#pnpm-lock
+pnpm-lock.yaml
+
+#env files
+.env
+.env.local
